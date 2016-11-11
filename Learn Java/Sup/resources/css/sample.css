@@ -1,0 +1,15 @@
+.root {
+    -fx-font-family: Papyrus;
+    -fx-hgap: 10;
+    -fx-vgap: 10;
+    -fx-alignment: center;
+}
+
+.title {
+    -fx-font-size: 80px;
+    -fx-fill: AQUA;
+}
+
+.text-field {
+    -fx-font-family: Helvetica;
+}
