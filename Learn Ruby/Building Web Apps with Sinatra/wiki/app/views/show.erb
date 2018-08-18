@@ -1,0 +1,9 @@
+<h1><%= @title %></h1>
+<p><%= @content %></p>
+<div>
+  <a href="/<%= @title %>/edit">Edit this page</a>
+  <form method="post" action="/<%= @title %>">
+    <input type="hidden" name="_method" value="delete" />
+    <input type="submit" value="Delete this page" />
+  </form>
+</div>
